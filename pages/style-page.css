@@ -23,7 +23,7 @@ body {
     height: 70px;
     float: left;
     padding: auto 10px;
-    box-sizing: border-box;
+    
     
 }
 .header header h1 {
@@ -37,6 +37,7 @@ body {
     float: left;
     border-bottom: 8px solid black;
     overflow: hidden;
+    
     
     
 }
@@ -53,12 +54,13 @@ body {
     padding: 5px 10px;
     text-transform: uppercase;
 }
-.header nav ul li a:hover {
+.active, .header nav ul li a:hover {
     background-color: black;
     color: antiquewhite;
     border-radius: 3px;
     
 }
+/* CSS untuk Submenu */
 
 
 /* Content */
@@ -81,6 +83,12 @@ body {
     height: 100%;
     font-size: 13PX;
     margin-top: 70px;
+}
+
+.content .main-content h1 {
+    padding: 15px 10px 5px;
+    margin: 10px;
+    color: black;
 }
 
 .content .main-content p {
