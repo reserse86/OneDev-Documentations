@@ -1,141 +1,147 @@
 /* Clear Margin dan Padding */
 body {
-    font-family: 'Quicksand', sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 .container {
-    
-    
 }
 /* Header */
 
 .header {
-    background-color: tomato;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;    
+  background-color: tomato;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .header header {
-    background-color: rgb(246, 249, 249);
-    width: 25%;
-    height: 70px;
-    float: left;
-    padding: auto 10px;
-    
-    
+  background-color: rgb(246, 249, 249);
+  width: 25%;
+  height: 70px;
+  float: left;
+  padding: auto 10px;
 }
 .header header h1 {
-    text-align: center;
-    padding-bottom: 15px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 .header nav {
-    background-color: rgb(250, 248, 251);
-    width: 75%;
-    height: 70px;
-    float: left;
-    border-bottom: 8px solid black;
-    overflow: hidden;
-    
-    
-    
+  background-color: rgb(250, 248, 251);
+  width: 75%;
+  height: 70px;
+  float: left;
+  border-bottom: 8px solid black;
+  overflow: hidden;
 }
 .header nav ul {
-    list-style-type: none;
-    padding-top: 10px;
-    display: flex;
+  list-style-type: none;
+  padding-top: 10px;
+  display: flex;
 }
 .header nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 .header nav ul li a {
-    text-decoration: none;
-    padding: 5px 10px;
-    text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+  text-transform: uppercase;
 }
-.active, .header nav ul li a:hover {
-    background-color: black;
-    color: antiquewhite;
-    border-radius: 3px;
-    
+.active,
+.header nav ul li a:hover {
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 3px;
 }
 /* CSS untuk Submenu */
-
 
 /* Content */
 
 .content {
-    background-color: rgb(22, 200, 200);
-    
+  background-color: rgb(39, 43, 43);
 }
 
-.content .nav-sidebar{
-    float: left;
-    width: 25%;
-    height: 100%;
-    margin-top: 70px;
+.content .nav-sidebar {
+  float: left;
+  width: 25%;
+  height: 100%;
+  margin-top: 70px;
 }
-.content .main-content{
-    float: right;
-    width: 75%;
-    background-color: aquamarine;
-    height: 100%;
-    font-size: 13PX;
-    margin-top: 70px;
+.content .main-content {
+  float: right;
+  width: 75%;
+  background-color: rgb(232, 233, 232);
+  height: 100%;
+  font-size: 13px;
+  margin-top: 70px;
 }
 
 .content .main-content h1 {
-    padding: 15px 10px 5px;
-    margin: 10px;
-    color: black;
+  padding: 15px 10px 5px;
+  margin: 10px;
+  color: black;
 }
 
 .content .main-content p {
-    padding: 10px 10px;
-    margin: 10px;
-    text-align: justify;
+  padding: 10px 10px;
+  margin: 10px;
+  text-align: justify;
 }
 
-
 .nav-sidebar ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-sidebar ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 5px 10px 5px 5px;
-    width: 100%;
-    font-size: 13px;
-    color: brown;
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px 5px 5px;
+  width: 100%;
+  font-size: 13px;
+  color: rgb(231, 223, 223);
 }
 .nav-sidebar ul li a:hover {
-   background-color: black;
-   color: antiquewhite;
-   border-radius: 2px;
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 2px;
+}
+.nav-sidebar h4 {
+  margin: 15px 0px 0px 40px;
+  color: azure;
 }
 
 /* Footer */
 .footer {
-    width: 100%;
-    display: inline-block;
+  width: 100%;
+  display: inline-block;
 }
 .footer footer {
-    background-color: black;
-    color: antiquewhite;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
-
 
 .footer footer p {
-    font-size: 14px;
-    text-align: center;
-
+  font-size: 14px;
+  text-align: center;
 }
 
+/* CSS Untuk Code */
+code {
+  background-color: rgb(175, 172, 173);
+  display: block;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  width: 90%;
+  text-align: left;
+  border-radius: 5px;
+}
+
+code pre {
+  color: black;
+}
 
 /* clear Float */
 
@@ -148,20 +154,20 @@ body {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
- .cf:before,
- .cf:after {
-     content: " "; /* 1 */
-     display: table; /* 2 */
- }
- 
- .cf:after {
-     clear: both;
- }
- 
- /**
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
   * For IE 6/7 only
   * Include this rule to trigger hasLayout and contain floats.
   */
- .cf {
-     *zoom: 1;
- }
+.cf {
+  *zoom: 1;
+}
