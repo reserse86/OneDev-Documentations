@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.container {
+  margin: 20px;
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logo {
+  background-color: #9fe2bf;
+  max-width: 10vw;
+  height: 10vh;
+  flex: 1;
+  margin: 1em;
+}
+.logo img {
+  width: 50px;
+}
+.nav {
+  background-color: #4a534e;
+  max-width: 90vw;
+  height: 10vh;
+  flex: 1;
+  margin: 1em;
+}
+.sidebar {
+  background-color: #9fe2bf;
+  max-width: 20vw;
+  
+  flex: 1;
+  margin: 1em;
+}
+.content {
+  background-color: #4a534e;
+  max-width: 80vw;
+  
+  flex: 2;
+  margin: 1em;
+}
+.created {
+  background-color: #4a534e;
+  max-width: 30vw;
+  height: 100px;
+  flex: 1;
+  margin: 1em;
+}
+.contact {
+  background-color: #4a534e;
+  max-width: 30vw;
+  height: 100px;
+  flex: 1;
+  margin: 1em;
+}
+.profil {
+  background-color: #4a534e;
+  max-width: 30vw;
+  height: 100px;
+  flex: 1;
+  margin: 1em;
+  order
+}

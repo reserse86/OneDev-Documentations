@@ -4,8 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.container {
-}
+
 /* Header */
 
 .header {
@@ -126,6 +125,7 @@ body {
 .footer footer p {
   font-size: 14px;
   text-align: center;
+  padding: 10px 25px;
 }
 
 /* CSS Untuk Code */
